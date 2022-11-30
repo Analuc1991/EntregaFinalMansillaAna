@@ -1,0 +1,190 @@
+$vista: mobile;
+mobile {
+@if vista == desktop {
+    @media only screen and(min-width: 1024px) {
+        .slider img {
+          display: flex;
+        }
+        .navbar-brand {
+            font-style: italic;
+        }
+      }
+    } @else if $vista == mobile {
+        @media screen and (max-width:768px){
+            .navbar-brand{
+                font-size: 32px;
+            }
+        
+            .slider img {
+                width: 150px;
+                height: 150px;
+            }
+        
+            .titulo--oferta h2{
+                font-size: 65px;
+            }
+        
+            .card-title {
+                color: blue;
+            }
+            .contactate {
+                color: blue;
+                font-size: 30px;
+                text-decoration: underline;
+            }
+            .datos--text h2{
+                font-size: 33px;
+                color: green;
+            }
+            .form-label {
+            font-size: 18px;
+           }
+           .col-sm-3 {
+            font-size: 25px;
+            text-decoration: underline;
+        }
+        
+            .col-sm-9 {
+                font-size: 30px;
+            
+            }
+        
+            .slider img {
+                width: 150px;
+                height: 150px;
+            }
+        
+            .titulo--oferta h2{
+                font-size: 65px;
+            }
+        
+            .card-title {
+                color: blue;
+            }
+            .listaproducto h2 {
+                font-size: 35px;
+                text-decoration: underline;
+            }
+        
+            .listaproducto legend {
+                background-color: black;
+                text-align: center;
+            }
+        
+            .listaproducto ul li {
+                font-size: 22px;
+            }
+            .col-sm-9 {
+                font-size: 30px;
+               
+            }
+        
+            .slider img {
+                width: 150px;
+                height: 150px;
+            }
+        
+            .titulo--oferta h2{
+                font-size: 65px;
+            }
+        
+            .card-title {
+                color: red;
+            }                
+          }       
+    }
+}
+
+@media (min-width: 480px) {
+    .slider img {
+      display: flex;
+    }
+    .navbar-brand {
+        font-style: italic;
+    }
+  }
+
+@media screen and (max-width:768px){
+    .navbar-brand{
+        font-size: 32px;
+    }
+
+    .slider img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo--oferta h2{
+        font-size: 65px;
+    }
+
+    .card-title {
+        color: blue;
+    }
+    .contactate {
+        color: blue;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .datos--text h2{
+        font-size: 33px;
+        color: green;
+    }
+    .form-label {
+    font-size: 18px;
+   }
+   .col-sm-3 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+    .col-sm-9 {
+        font-size: 30px;
+    
+    }
+
+    .slider img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo--oferta h2{
+        font-size: 65px;
+    }
+
+    .card-title {
+        color: blue;
+    }
+    .listaproducto h2 {
+        font-size: 35px;
+        text-decoration: underline;
+    }
+
+    .listaproducto legend {
+        background-color: black;
+        text-align: center;
+    }
+
+    .listaproducto ul li {
+        font-size: 22px;
+    }
+    .col-sm-9 {
+        font-size: 30px;
+       
+    }
+
+    .slider img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo--oferta h2{
+        font-size: 65px;
+    }
+
+    .card-title {
+        color: red;
+    }
+
+
+  }

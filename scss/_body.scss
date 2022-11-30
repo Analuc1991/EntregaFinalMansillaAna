@@ -1,0 +1,114 @@
+.cuerpo {
+    margin: $margin-general;
+    padding: $padding-general;
+    background-image: $color-pagina;
+    text-align: center;
+ } 
+.logo--nombre {
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto {
+    background: $titulo-general;
+    font-size: 30px;
+    background-clip: movimiento;
+    -webkit-background-clip: movimiento;
+    -moz-background-clip: movimiento;
+    animation: movimiento 3s linear infinite;
+}
+
+.slider {
+
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+        .slider img {
+            height: 300px;
+            width: 250px;
+            animation: ida 8s ease infinite;
+        }
+    
+}
+
+
+.titulo--oferta {
+    height: 200px;
+         h2 {
+        text-align: center;
+        font-size: 60px;
+        font-style: italic;
+    }
+}
+
+
+.imagenes--oferta{
+    height: 500px;
+    text-align: center;
+    img {
+        height: 300px;
+        border-radius: 10%;
+        
+    }
+}
+
+
+.card-body {
+    height: 50px;
+    
+    .card-title {
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        
+        .card-title:hover {
+            animation: agitar 0.5s;
+            animation-iteration-count: infinite;
+          }
+    }
+    
+    .card-img-top {
+        height: 300px;
+        
+        .card-img-top:hover {
+            animation: agitar 0.5s;
+            animation-iteration-count: infinite;
+          }
+    }
+
+    .card-group5 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    
+    .card-group5 img {
+        height: 450px;
+        width: 150;
+    }
+}
+
+
+
+.listaproducto h2{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+
+    .listaproducto ul li { 
+        font-size: 20px;
+     }
+     .listaproducto fieldset legend { 
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(226, 153, 43);
+    }
+ }
+
+
+
+ 
+
+
+
